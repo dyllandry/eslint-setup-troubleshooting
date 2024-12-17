@@ -3,6 +3,9 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
+// ts diagnostic
+const unusedVar = 123;
+
 const count = ref(0)
 </script>
 

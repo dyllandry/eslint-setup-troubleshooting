@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+// ts diagnostic
+const unusedVar = 123;
 </script>
 
 <template>
