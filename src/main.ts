@@ -13,4 +13,9 @@ if (123 == 123) {
 
 }
 
+// ts-eslint typechecked diagnostic
+async function myAsyncFn() {
+    return 123;
+}
+
 createApp(App).mount('#app')

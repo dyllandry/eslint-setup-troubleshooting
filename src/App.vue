@@ -2,6 +2,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 // ts and eslint diagnostic
 const unusedVar = 123;
+
+// ts-eslint typechecked diagnostic
+async function myAsyncFn() {
+    return 123;
+}
 </script>
 
 <template>
