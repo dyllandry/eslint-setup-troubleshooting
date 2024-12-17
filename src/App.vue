@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-// ts diagnostic
+// ts and eslint diagnostic
 const unusedVar = 123;
 </script>
 

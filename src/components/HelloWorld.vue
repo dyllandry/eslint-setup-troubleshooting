@@ -3,8 +3,16 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
-// ts diagnostic
+// ts and eslint diagnostic
 const unusedVar = 123;
+
+// eslint diagnostic
+if (123 == 123) {
+
+// eslint diagnostic
+} else if (123 == 123) {
+
+}
 
 const count = ref(0)
 </script>
